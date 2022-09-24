@@ -27,12 +27,13 @@ body {
     align-items: center;
     background-color: #200439;
     color: #fff;
+    padding: 0 2.5rem;
 }
 
 
 .logo {
-    font-size: 2rem;
-    margin: 0.5rem;
+    font-size: 2.5rem;
+    margin: 0.75rem 2.5rem;
     color: #c5b358;
 }
 
@@ -46,26 +47,28 @@ body {
 
 .navbar-links li {
     list-style: none;
+    padding: 1rem;
+    font-size: 1.2rem;
 }
 
 
 .navbar-links li a {
     text-decoration: none;
     color: #fff;
-    padding: 1rem;
+    padding: 0.5rem 2rem;
     display: block;
 }
 
 
 .navbar-links li:hover {
-    background-color: #6F4D8F;
+    background-color: #512C73;
 }
 
 
 .toggle-button {
     position: absolute;
-    top: 0.75rem;
-    right: 1rem;
+    top: 1.5rem;
+    right: 1.5rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -82,7 +85,7 @@ body {
 
 
 
-@media (max-width: 576px) {
+@media (max-width: 800px) {
     .toggle-button {
         display: flex;
     }
@@ -106,11 +109,7 @@ body {
         text-align: center;
     }
     
-    .navbar-links li a {
-        padding: 0.5rem 1rem;
-    }
-    
-    nabar-links.active {
+    .navbar-links.active {
         display: flex;
     }
 }
