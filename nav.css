@@ -14,29 +14,12 @@ black: #000
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
 
-
-* {
-    /* If we add any padding or border onto an element it does not affect the width of the element */
-    box-sizing:  border-box;
-}
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #200439;
-    color: #fff;
     padding: 0 2.5rem;
 }
-
 
 .logo {
     font-size: 2rem;
@@ -45,20 +28,17 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
-
 .navbar-links ul {
     margin: 0;
     padding: 0;
     display:  flex;
 }
 
-
 .navbar-links li {
     list-style: none;
     padding: 1rem;
     font-size: 1.2rem;
 }
-
 
 .navbar-links li a {
     text-decoration: none;
@@ -67,11 +47,9 @@ body {
     display: block;
 }
 
-
 .navbar-links li:hover {
     background-color: #361356;
 }
-
 
 .toggle-button {
     position: absolute;
@@ -90,7 +68,6 @@ body {
     background-color: #fff;
     border-radius: 10px;
 }
-
 
 
 @media (max-width: 800px) {

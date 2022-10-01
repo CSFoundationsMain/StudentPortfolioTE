@@ -14,9 +14,20 @@ black: #000
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
 
+* {
+    /* If we add any padding or border onto an element it does not affect the width of the element */
+    box-sizing:  border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #200439;
+    color: #fff;
+}
 
 .hero {
-    background-color: #200439;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,6 +79,37 @@ black: #000
 .button a {
     color: #c5b358;
     text-decoration: none;
+}
+
+.projects {
+    margin: 3rem;
+    padding: 0;
+    background-color: #200439;
+    color: #fff;
+}
+
+.projectsHeader{
+    text-align: center;
+    padding: 0.5rem;
+    letter-spacing: 4px;
+}
+
+.projectCard {
+    margin: 2rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    border: 1px solid #9277AC;
+    border-radius: 1rem;
+}
+
+.projectCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 3rem;
+}
+
+.projectCard h3 {
+    margin: 0.4rem 1rem 1.5rem 1rem;
 }
 
 
