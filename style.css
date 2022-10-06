@@ -28,6 +28,15 @@ body {
     color: #fff;
 }
 
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content: center;
+    height:  90vh;
+    margin: 0;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
