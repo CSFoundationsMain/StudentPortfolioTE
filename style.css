@@ -16,7 +16,7 @@ black: #000
 
 * {
     /* If we add any padding or border onto an element it does not affect the width of the element */
-    box-sizing:  border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -36,9 +36,9 @@ footer {
 .blog {
     display: flex;
     flex-direction: column;
-    align-items:  center;
+    align-items: center;
     justify-content: center;
-    height:  90vh;
+    height: 90vh;
     margin: 0;
 }
 
@@ -50,7 +50,7 @@ footer {
 }
 
 .heroImage {
-    padding: 4rem;
+    padding: 2.5rem;
 }
 
 .hero img {
@@ -62,7 +62,7 @@ footer {
 
 .heroText {
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.7rem;
     padding-bottom: 2rem;
     text-align: center;
     letter-spacing: 5px;
@@ -70,7 +70,7 @@ footer {
 
 .heroName {
     color: #c5b358;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
 }
@@ -92,11 +92,18 @@ footer {
     padding: 1rem;
     border: 1px solid #9277AC;
     border-radius: 25px;
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 700;
     color: #200439;
     text-decoration: none;
     box-shadow: 8px 8px 4px #000;
+}
+
+.button:hover {
+    background-color: #361356;
+    color: #c5b358;
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .fa-github {
@@ -116,7 +123,7 @@ footer {
     color: #fff;
 }
 
-.projectsHeader{
+.projectsHeader {
     text-align: center;
     padding: 0.5rem;
     letter-spacing: 4px;
@@ -170,14 +177,26 @@ footer {
         align-items: center;
         height: 90vh;
     }
+
+    .heroText {
+        font-size: 1rem;
+    }
+
+    .heroName {
+        font-size: 3.5rem;
+    }
     
+    .button {
+        font-size: 1.1rem;
+    }
+
     .projectGallery {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
     }
-    
+
     .projectCard {
         max-width: 25%;
     }
