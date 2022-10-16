@@ -141,6 +141,7 @@ footer {
 
 .projectsHeader {
     text-align: center;
+    margin: 3rem 3rem 0;
     padding: 0.5rem;
     letter-spacing: 4px;
 }
@@ -148,7 +149,7 @@ footer {
 .projectCard {
     background-color: #fff;
     color: #200439;
-    margin: 3rem 1.5rem;
+    margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
     border: 1px solid #9277AC;
